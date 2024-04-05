@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<RecipeDef>
-		<defName>ExtractFat</defName>
+		<defName>ExtractAnimalFat</defName>
 		<label>Extract animal fat</label>
-		<description>Extract animal fat from raw meat.</description>
+		<description>Extract fat from raw animal meat.</description>
 		<jobString>Carving meat</jobString>
 		<workAmount>450</workAmount>
 		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
@@ -27,14 +27,14 @@
 				<count>20</count>
 			</li>
 		</ingredients>
-		<fixedIngredientFilter>
+		<!--fixedIngredientFilter>
 			<categories>
 				<li>MeatRaw</li>
 			</categories>
 			<disallowedThingDefs>
-				<li>Meat_Megaspider</li>
+				<li>Meat_Human</li>
 			</disallowedThingDefs>
-		</fixedIngredientFilter>
+		</fixedIngredientFilter-->
 		<products>
 			<SCFat>10</SCFat>
 		</products>
@@ -42,4 +42,47 @@
 			<Cooking>4</Cooking>
 		</skillRequirements>
 	</RecipeDef>
+
+	<!--RecipeDef>
+		<defName>ExtractHumanFat</defName>
+		<label>Extract human fat</label>
+		<description>Extract fat from raw human meat.</description>
+		<jobString>Carving meat</jobString>
+		<workAmount>450</workAmount>
+		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<workSkillLearnFactor>1</workSkillLearnFactor>
+		<efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<recipeUsers>
+			<li>TableButcher</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients-->
+		<!--fixedIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>MeatRaw</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter-->
+		<!--products>
+			<SCFat>10</SCFat>
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+	</RecipeDef-->
 </Defs>

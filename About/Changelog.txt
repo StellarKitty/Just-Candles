@@ -1,0 +1,9 @@
+Changelog:
+
+1.1
+- every meat is now allowed (as long as its ThingDef is MeatRaw)
+
+1.0
+- Initial Release
+- allowed human meat
+- candles are no longer destroyed when not refueled
