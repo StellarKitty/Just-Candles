@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThingDef ParentName="BuildingBase">
+    	<defName>SCCandle</defName>
+    	<label>candle</label>
+		<description>A cute candle, burning slowly. Can be refilled using animal fat.</description>
+   		<category>Building</category>
+   		<graphicData>
+      		<texPath>Things/Building/Furnitures/Candle</texPath>
+      		<graphicClass>Graphic_Single</graphicClass>
+      		<drawRotated>false</drawRotated>
+     			<damageData>
+        			<rect>(0.35,0.35,0.3,0.3)</rect>
+      			</damageData>
+   		</graphicData>
+   		<rotatable>false</rotatable>
+   		<altitudeLayer>BuildingOnTop</altitudeLayer>
+   		<passability>PassThroughOnly</passability>
+   		<pathCost>4</pathCost>
+   		<constructEffect>ConstructWood</constructEffect>
+   		<tickerType>Normal</tickerType>
+   		<drawerType>RealtimeOnly</drawerType>
+   		<fillPercent>0.15</fillPercent>
+   		<statBases>
+			<Beauty>8</Beauty>
+   			<MaxHitPoints>20</MaxHitPoints>
+   			<WorkToBuild>250</WorkToBuild>
+   			<Flammability>0</Flammability>
+			<Mass>0.2</Mass>
+   		</statBases>
+   		<selectable>true</selectable>
+   		<costList>
+   			<Steel>3</Steel>
+		  	<SCFat>10</SCFat>
+   		</costList>
+   		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+   		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+   		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+   		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<clearBuildingArea>false</clearBuildingArea>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+    		<comps>
+      			<li Class="CompProperties_Refuelable">
+        			<fuelConsumptionRate>1.01</fuelConsumptionRate>
+        			<fuelCapacity>10</fuelCapacity>
+					<initialFuelPercent>1</initialFuelPercent>
+        			<fuelConsumptionPerTickInRain>0.05</fuelConsumptionPerTickInRain>
+        			<fuelFilter>
+          				<thingDefs>
+           					<li>SCFat</li>
+          				</thingDefs>
+        			</fuelFilter>
+        			<destroyOnNoFuel>false</destroyOnNoFuel>
+     			</li>
+      			<li Class="CompProperties_Glower">
+        			<glowRadius>5</glowRadius>
+        			<glowColor>(252,187,113,0)</glowColor>
+      			</li>
+      			<li Class="CompProperties_FireOverlay">
+       				<fireSize>0.3</fireSize>
+        			<offset>(0,0,0.5)</offset>
+      			</li>
+    		</comps>
+    		<designationCategory>Furniture</designationCategory>
+  	</ThingDef>
+</Defs>
