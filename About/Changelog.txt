@@ -1,4 +1,9 @@
 Changelog:
+1.1.1
+- not fully supported in 1.5 as the recipe doesn't work yet (I'm on it)
+- added Focustype
+- added heat
+- added toggle autofuel
 
 1.1
 - every meat is now allowed (as long as its ThingDef is MeatRaw)
