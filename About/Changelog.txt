@@ -1,4 +1,10 @@
 Changelog:
+1.1.2
+- added the possibility of turning candles on and off
+- campfires have now the opportunity to make fat
+- fixed the recipe
+- minor aesthetic changes
+
 1.1.1
 - not fully supported in 1.5 as the recipe doesn't work yet (I'm on it)
 - added Focustype

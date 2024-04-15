@@ -49,7 +49,7 @@
 		</building>
     	<comps>
     		<li Class="CompProperties_Refuelable">
-    			<fuelConsumptionRate>1.01</fuelConsumptionRate>
+    			<fuelConsumptionRate>1</fuelConsumptionRate>
         		<fuelCapacity>20</fuelCapacity>
 				<initialFuelPercent>1</initialFuelPercent>
         		<fuelConsumptionPerTickInRain>0.05</fuelConsumptionPerTickInRain>
@@ -92,6 +92,7 @@
     			<fireSize>0.3</fireSize>
     			<offset>(0,0,0.5)</offset>
       		</li>
+			<li Class="CompProperties_Flickable"/>
     	</comps>
     	<designationCategory>Furniture</designationCategory>
   	</ThingDef>

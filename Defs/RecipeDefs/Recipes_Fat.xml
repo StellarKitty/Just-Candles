@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<RecipeDef>
-		<defName>ExtractAnimalFat</defName>
-		<label>Extract animal fat</label>
-		<description>Extract fat from raw animal meat.</description>
-		<jobString>Carving meat</jobString>
+		<defName>ExtractCandleFat</defName>
+		<label>Extract fat</label>
+		<description>Extract fat from raw meat.</description>
+		<jobString>Making fat</jobString>
 		<workAmount>450</workAmount>
 		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
@@ -27,14 +27,14 @@
 				<count>20</count>
 			</li>
 		</ingredients>
-		<!--fixedIngredientFilter>
+		<fixedIngredientFilter>
 			<categories>
 				<li>MeatRaw</li>
 			</categories>
-			<disallowedThingDefs>
+			<!--disallowedThingDefs>
 				<li>Meat_Human</li>
-			</disallowedThingDefs>
-		</fixedIngredientFilter-->
+			</disallowedThingDefs-->
+		</fixedIngredientFilter>
 		<products>
 			<SCFat>10</SCFat>
 		</products>

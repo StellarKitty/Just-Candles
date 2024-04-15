@@ -43,9 +43,7 @@
     <stages>
       <li>
         <label>ate awful meal</label>
-        <description>
-That was awful! I hope I never have to eat this again.
-        </description>
+        <description>That was awful! I hope I never have to eat this again...</description>
         <baseMoodEffect>-12</baseMoodEffect>
       </li>
     </stages>
