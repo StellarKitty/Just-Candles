@@ -1,4 +1,8 @@
 Changelog:
+1.2
+- default meat excludes now human and insect meat
+- when using the mod Extinguishing Refuelable you can now turn off the candle 
+
 1.1.2
 - added the possibility of turning candles on and off
 - campfires have now the opportunity to make fat

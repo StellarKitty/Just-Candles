@@ -13,8 +13,12 @@
   <description>
 
 Add candles to the game
+They can now be turned off and they're not destroyed when their fuel runs out.
+Candles have the focustype Flames, perfect for placing around in a circle!
+
 Original Mod by APurpleApple (https://steamcommunity.com/sharedfiles/filedetails/?id=1359492124)
-I changed some things as well (candles are not destroyed when their fuel is empty and every meat is allowed)
+I changed some things as well, check the Changelog for details 
+The code can be seen here: https://github.com/StellarKitty/Just-Candles
 
  </description>
 </ModMetaData>

@@ -31,10 +31,17 @@
 			<categories>
 				<li>MeatRaw</li>
 			</categories>
-			<!--disallowedThingDefs>
-				<li>Meat_Human</li>
-			</disallowedThingDefs-->
 		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>Meat_Twisted</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
 		<products>
 			<SCFat>10</SCFat>
 		</products>
@@ -69,16 +76,16 @@
 				</filter>
 				<count>20</count>
 			</li>
-		</ingredients-->
-		<!--fixedIngredientFilter>
+		</ingredients>
+		<fixedIngredientFilter>
 			<categories>
-				<li>MeatRaw</li>
+				<li>Meat_Human</li>
 			</categories>
 			<disallowedThingDefs>
 				<li>MeatRaw</li>
 			</disallowedThingDefs>
-		</fixedIngredientFilter-->
-		<!--products>
+		</fixedIngredientFilter>
+		<products>
 			<SCFat>10</SCFat>
 		</products>
 		<skillRequirements>
